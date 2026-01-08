@@ -52,6 +52,12 @@ body{
     background-image: var(--bg_color);
     width: 100%;
 }
+.flex-1 {
+  flex: 1
+}
+.navbar .container{
+  column-count: 3;
+}
 .navbar-toggler,
 .navbar-toggler:focus{
     outline: none;

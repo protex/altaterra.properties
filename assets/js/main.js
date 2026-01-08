@@ -20,7 +20,9 @@ $(document).ready(function() {
                 let cardHtml = `<div class="col-6 col-lg-3 my-5 m-0 m-auto">
                     <div class="card">
                         <div class="img_conta">
+                          <a href="${property.page}" target="_blank">
                             <img class="card-img-top" src="${property.image}" alt="Card image cap">
+                          </a>
                         </div>
                         <div class="card-body d-flex justify-content-between">
                             <div>
@@ -28,8 +30,10 @@ $(document).ready(function() {
                                 <p class="card-text">${property.price}</p>
                             </div>
                             <div class="mt-2 bag_col">
+                              <a href="${property.page}" target="_blank">
                                 <ion-icon name="information-circle-outline" class="py-1 px-2 me-2 bag-outline"></ion-icon>
                                 <ion-icon name="information-circle" class="py-1 px-2 me-2 bag-filled"></ion-icon>
+                              </a>
                             </div>
                         </div>
                     </div>
