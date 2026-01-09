@@ -23,17 +23,12 @@ $(document).ready(function() {
                           <a href="${property.page}" target="_blank">
                             <img class="card-img-top" src="${property.image}" alt="Card image cap">
                           </a>
+                          <div class="card-price">${property.price}</div>
                         </div>
                         <div class="card-body d-flex justify-content-between">
                             <div>
                                 <h5 class="card-title">${property.title}</h5>
-                                <p class="card-text">${property.price}</p>
-                            </div>
-                            <div class="mt-2 bag_col">
-                              <a href="${property.page}" target="_blank">
-                                <ion-icon name="information-circle-outline" class="py-1 px-2 me-2 bag-outline"></ion-icon>
-                                <ion-icon name="information-circle" class="py-1 px-2 me-2 bag-filled"></ion-icon>
-                              </a>
+                                <p class="card-text">${property.location}</p>
                             </div>
                         </div>
                     </div>

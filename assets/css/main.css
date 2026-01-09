@@ -226,6 +226,17 @@ body{
     color: var(--mix_white1);
 }
 
+.card .img_conta .card-price {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   padding: 10px 5px 5px 5px;
+   background-color: white;
+   text-align: center;
+   border-radius: 20px;
+   vertical-align: middle;
+}
+
 
 /*============= sellers =============*/
 .sellers .card{
@@ -268,6 +279,7 @@ body{
 }
 .bag_col{
     transition: color 0.3s ease;
+    flex-basis: 20%;
 }
 .bag_col .bag-filled {
     display: none;
@@ -415,8 +427,8 @@ body{
     font-size: 2.1rem;
     opacity: .9;
 }
-.up_footer p {
-    font-size: .7rem;
+.up_footer span {
+    font-size: 1rem;
     opacity: .6;
 }
 
