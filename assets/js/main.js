@@ -33,7 +33,7 @@ $(document).ready(function() {
                         </div>
                     </div>
                 </div>`;
-                $('#properties .row').append(cardHtml);
+                $('#picture-view-content').append(cardHtml);
             });
         });
 

@@ -228,20 +228,64 @@ body{
 
 .card .img_conta .card-price {
    position: absolute;
-   top: 10px;
-   left: 10px;
+   top: 20px;
+   left: 20px;
    padding: 10px 5px 5px 5px;
    background-color: white;
    text-align: center;
-   border-radius: 20px;
+   border-radius: 3px;
    vertical-align: middle;
 }
 
 
 /*============= sellers =============*/
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+.property-display-switcher{
+   border: 2px solid black;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   border-radius: 5px;
+
+}
+.property-display-switcher input {
+  display: none
+}
 .sellers .card{
     border: 0!important;
 }
+
+.property-display-switcher ion-icon{
+  transition: background 1s;
+}
+.property-display-switcher input:checked + ion-icon{
+  background: var(--mix_white1);
+}
+.property-view{
+  display: none;
+  opacity: 0;
+}
+#properties:has(#picture-view:checked) #picture-view-content{
+  display: inherit !important;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+#properties:has(#map-view:checked) #map-view-content{
+  display: inherit !important;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+
 .hart_col{
     transition: color 0.3s ease;
 }

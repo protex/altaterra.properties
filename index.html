@@ -52,7 +52,10 @@
             <a class="nav-link" href="#properties">Properties</a>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link" href="#sellers">Subscribe</a>
+            <a class="nav-link" href="#subscribe">Special Offers</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#contacts">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -81,7 +84,7 @@
       <div class="row">
         <div class="col-3 m-0 m-auto text-center">
           <i class="bi bi-cash-coin"></i>
-          <div><span>Owner Financing<span></div>
+          <div><span>Owner Financing on Everything<span></div>
         </div>
         <div class="col-3 m-0 m-auto text-center">
           <i class="bi bi-cash-coin"></i>
@@ -97,11 +100,37 @@
   <!-- end frist footer -->
 
 
+
   <!-- start new collection -->
   <section class="sellers" id="properties">
     <div class="container py-5">
       <div class="row">
-        <h1 class="mt-5">Properties</h1>
+        <div style="display: flex; flex-direction: row; line-height: 0px; font-size: 2rem;">
+          <h1 class="mt-5" style="flex-grow: 1">Properties</h1>
+          <div class="mt-5">
+            <div class="property-display-switcher">
+              <label>
+                <input type="radio" name="property-display" id="picture-view" checked>
+                <ion-icon name="menu"></ion-icon>
+              </label>
+              <label>
+                <input type="radio" name="property-display" id="map-view">
+                <ion-icon name="map-outline"></ion-icon>
+              </label>
+            </div>
+          </div>
+        </div>
+          <div class="property-view row" id="picture-view-content"></div>
+          <div class="property-view" id="map-view-content">
+            <div style="width: 100%; display: flex; flex-direction: row; justify-content: center; overflow: hidden">
+              <iframe 
+                 src="https://www.google.com/maps/d/u/0/embed?mid=16xtIehCh_Sg7YKUHAP_KOK5YjRM3I9c&ehbc=2E312F&noprof=1"
+                 height="600"
+                 frameborder="0"
+                 style="border:0;flex-basis: 100%">
+              </iframe>
+            </div>
+          </div>
       </div>
     </div>
   </section>
@@ -109,12 +138,12 @@
 
 
   <!-- start best sellers -->
-  <section class="collection" id="sellers">
+  <section class="collection" id="subscribe">
     <div class="container py-5">
       <div class="row">
 
         <h1 class="mt-5">
-          Subscribe
+          Special Offers
         </h1>
 
         <div class="ml-embedded" data-form="alNZ97"></div>
@@ -123,7 +152,6 @@
     </div>
   </section>
   <!-- end best sellers -->
-
 
   <!-- start Our Statistics -->
   <section class="statistics" style="display: none">
@@ -187,7 +215,7 @@
         <div class="col-10 col-md-3 py-3 pb-5 pb-md-0  m-auto m-md-0  text-center text-md-start" style="justify-content: center; display: flex">
           <img src="./assets/images/logo/logo.png" width="65%">
         </div>
-        <div class="col-10 col-md-3 py-3 pb-5 pb-md-0  m-auto m-md-0  text-center text-md-start">
+        <div id="contacts" class="col-10 col-md-3 py-3 pb-5 pb-md-0  m-auto m-md-0  text-center text-md-start">
           <h1>
             Contacts
           </h1>
