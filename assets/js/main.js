@@ -20,7 +20,7 @@ $(document).ready(function() {
                 let cardHtml = `<div class="col-6 col-lg-3 my-5 m-0 m-auto">
                     <div class="card">
                         <div class="img_conta">
-                          <a href="${property.page}" target="_blank">
+                          <a href="/property-page?property=${property.name}" target="_blank">
                             <img class="card-img-top" src="${property.image}" alt="Card image cap">
                           </a>
                           <div class="card-price">${property.price}</div>
