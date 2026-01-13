@@ -1,0 +1,7 @@
+<script type="text/javascript">
+    const params = new URLSearchParams(document.location.search);
+    const property = params.get('property');
+    const mailerLitePath = "ATP-" + property;
+    const mailerLiteUrl = `https://subscribepage.io/${mailerLitePath}`
+    window.location.href = mailerLiteUrl;
+</script>
