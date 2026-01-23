@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alta Terra Properties</title>
+  <link rel="shortcut icon" href="assets/images/favicon.png">
+
+  <!-- Start CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- End CSS -->
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '1880929');
+</script>
+<!-- End MailerLite Universal -->
+
+</head>
+
+<body>
+
+  <!-- Start navBar -->
+  <nav class="navbar navbar-expand-lg" id="nav">
+    <div class="container-fluid container">
+      <a class="navbar-brand mx-1 mb-1 flex-1" href="#"><img src="./assets/images/logo/logo.png" alt="" width="150px"></a>
+
+      <div class="d-flex">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span><ion-icon name="menu"></ion-icon></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#properties">Properties</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#contacts">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-block  m-lg-auto me-lg-3 flex-1" id="fer-bar">
+      </div>
+    </div>
+  </nav>
+  <!-- End navBar -->
+
+  <!-- Start Home -->
+  <section class="home" id="home">
+    <div class="container pt-5 pt-lg-0">
+      <div class="row">
+        <div class="col-lg-10 m-auto" style="text-align: center">
+          <h1 class="mx-12">Alta Terra Properties</h1>
+          <h4 class="mx-12">Start Your Land Journey Today!</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Home -->
+
+  <!-- start frist footer -->
+  <section class="up_footer">
+    <div class="container  pt-3 pb-1">
+      <div class="row">
+        <div class="col-3 m-0 m-auto text-center">
+          <i class="bi bi-cash-coin"></i>
+          <div><span>Owner Financing on Everything<span></div>
+        </div>
+        <div class="col-3 m-0 m-auto text-center">
+          <i class="bi bi-cash-coin"></i>
+          <div><span>90 Day Money Back Guarantee</span></div>
+        </div>
+        <div class="col-3 m-0 m-auto text-center">
+          <i class="bi bi-check2-circle"></i>
+          <div><span>No Credit Checks, Everyone's Approved</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end frist footer -->
+
+
+
+  <!-- start new collection -->
+  <section class="sellers" id="properties">
+    <div class="container py-5">
+      <div class="row">
+        <div style="display: flex; flex-direction: row; line-height: 0px; font-size: 2rem;">
+          <h1 class="mt-5" style="flex-grow: 1">Properties</h1>
+          <div class="mt-5">
+            <div class="property-display-switcher">
+              <label>
+                <input type="radio" name="property-display" id="picture-view" checked>
+                <ion-icon name="menu"></ion-icon>
+              </label>
+              <label>
+                <input type="radio" name="property-display" id="map-view">
+                <ion-icon name="map-outline"></ion-icon>
+              </label>
+            </div>
+          </div>
+        </div>
+          <div class="property-view row" id="picture-view-content"></div>
+          <div class="property-view" id="map-view-content">
+            <div style="width: 100%; display: flex; flex-direction: row; justify-content: center; overflow: hidden">
+              <iframe 
+                 src="https://www.google.com/maps/d/u/0/embed?mid=11t46GRAB-_GOdv2qveEf6aoT6xuc9ZI&ehbc=2E312F"
+                 height="600"
+                 frameborder="0"
+                 style="border:0;flex-basis: 100%">
+              </iframe>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- end new collection -->
+
+  <!-- start Our Statistics -->
+  <section class="statistics" style="display: none">
+    <div class="container py-4 pb-5">
+      <div class="row">
+
+        <h1 class="mb-5 mt-2 text-center bg-yalow">
+          Our Statistics
+        </h1>
+
+        <div class="col-6 col-lg-2 m-0 m-auto my-2">
+          <div class="text-center stat_style py-4">
+            <h1>
+              30K+
+            </h1>
+            <h3>
+              Happy Custemers
+            </h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 m-0 m-auto my-2">
+          <div class="text-center stat_style py-4">
+            <h1>
+              10K+
+            </h1>
+            <h3>
+              Positive Reviews
+            </h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 m-0 m-auto my-2">
+          <div class="text-center stat_style py-4">
+            <h1>
+              100K+
+            </h1>
+            <h3>
+              Brand Partners
+            </h3>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2 m-0 m-auto my-2">
+          <div class="text-center stat_style py-4">
+            <h1>
+              50K+
+            </h1>
+            <h3>
+              Shops Worldwide
+            </h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end Our Statistics -->
+
+  <!-- start secound footer -->
+  <footer>
+    <div class="container py-5">
+      <div class="row pt-3 pb-0 pb-md-5" style="justify-content: center">
+        <div class="col-10 col-md-3 py-3 pb-5 pb-md-0  m-auto m-md-0  text-center text-md-start" style="justify-content: center; display: flex">
+          <img src="./assets/images/logo/logo.png" width="65%">
+        </div>
+        <div id="contacts" class="col-10 col-md-3 py-3 pb-5 pb-md-0  m-auto m-md-0  text-center text-md-start">
+          <h1>
+            Contacts
+          </h1>
+          <ul class="mt-3 px-0">
+            <li>Office Number: 214-471-5927</li>
+            <li>Email: wholesale@altaterra.properties</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end secound footer -->
+
+  <!-- Start Socket -->
+  <div class="socket text-center pt-4 pb-1">
+    <p>
+      &copy; 2026 Alta Terra Properties, LLC. All Right Reserved<br><span style="text-align: center;">theme by<a
+          href="https://ahmedabdalalim.pages.dev/"><img
+            src="https://raw.githubusercontent.com/ahmed-abd-alalim/ahmed-abd-alalim/main/assets/3A.png" alt="3A"
+            style="width: 25px; margin-bottom: -1px;"></a></span>
+    </p>
+  </div>
+  <!-- End Socket -->
+
+  <!-- start scroll top -->
+  <div class="scroll_top" id="scroll_top">
+    <ion-icon name="caret-up-outline"></ion-icon>
+  </div>
+  <!-- end scroll top -->
+
+  <!-- Start JS -->
+  <script src="assets/js/wholesale.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- End JS -->
+</body>
+
+</html>

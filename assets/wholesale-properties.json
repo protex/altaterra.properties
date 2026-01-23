@@ -1,0 +1,23 @@
+[
+    {
+        "title": "1 Acre - w/ Power and Paved Road",
+        "name": "NM-LUNA-ZEBROWSKI-01-02",
+        "price": "$2,200",
+        "image": "./assets/images/products/NM-LUNA-ZEBROWSKI-01-02.png",
+        "location": "Deming, NM"
+    },
+    {
+        "title": "2 Acre - w/ Power",
+        "name": "NM-LUNA-LANCASTER-01-02-03-04",
+        "price": "$2,955",
+        "image": "./assets/images/products/NM-LUNA-LANCASTER-01-02-03-04.png",
+        "location": "Deming, NM"
+    },
+    {
+        "title": "0.5 Acre",
+        "name": "NM-LUNA-SWIFT-01",
+        "price": "$800",
+        "image": "./assets/images/products/NM-LUNA-SWIFT-01.jpg",
+        "location": "Deming, NM"
+    }
+]
