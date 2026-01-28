@@ -25,7 +25,8 @@
         "name": "NM-LUNA-HANCOCK-01",
         "price": "$150/month",
         "image": "./assets/images/products/NM-LUNA-HANCOCK-01.png",
-        "location": "Deming, NM"
+        "location": "Deming, NM",
+        "sold": true
     },
     {
         "title": "0.5 Acre",

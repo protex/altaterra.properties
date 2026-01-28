@@ -226,15 +226,20 @@ body{
     color: var(--mix_white1);
 }
 
-.card .img_conta .card-price {
+.card .img_conta .card-status {
    position: absolute;
    top: 20px;
    left: 20px;
+   display: flex;
+}
+
+.card .img_conta .card-info {
    padding: 10px 5px 5px 5px;
    background-color: white;
    text-align: center;
    border-radius: 3px;
    vertical-align: middle;
+   margin: 0px 10px 0px 0px
 }
 
 

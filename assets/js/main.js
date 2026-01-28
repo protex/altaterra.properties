@@ -23,7 +23,10 @@ $(document).ready(function() {
                           <a href="/property-page?property=${property.name}" target="_blank">
                             <img class="card-img-top" src="${property.image}" alt="Card image cap">
                           </a>
-                          <div class="card-price">${property.price}</div>
+                          <div class="card-status">
+                            <div class="card-info">${property.price}</div>
+                            ${property.sold ? '<div class="card-info">SOLD</div>' : ''}
+                          </div>
                         </div>
                         <div class="card-body d-flex justify-content-between">
                             <div>
